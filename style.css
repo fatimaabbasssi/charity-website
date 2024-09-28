@@ -1,0 +1,1000 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.main{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0.2em;
+}
+
+
+.nav-ctm{
+    width: 100%;
+    padding: 1em ;
+    padding-bottom: 0.6em;
+    background-color:#f4f4f4;
+    display: flex;
+    justify-content: space-between;
+  
+    
+}
+
+.h6-navhead{
+display: inline-block;
+}
+
+.phone{
+    cursor: pointer;
+    transform: rotate(260deg);
+    color: #525151;
+}
+
+
+.span-0{
+   margin-left: -0.3em;
+}
+
+
+.span1{
+    padding: 1em 1.2em 1em 1.2em;
+    border-left: 1px solid #abaaaa ;
+    color: #8e8e8e;
+    
+    cursor: pointer;
+}
+
+.span1:hover{
+    background-color: #e7e6e6;
+}
+
+/* main navvvvvv */
+
+
+.navbar{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    background-color: white;
+    position: sticky;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    z-index: 100;
+}
+
+.navbar-nav{
+   position: absolute;
+   right: 15%;
+ 
+}
+
+.nav-link:hover{
+    color: orange;
+}
+
+.btn1{
+    border-radius:0 ;
+    border: 2px solid  #fa6f1c;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #fa6f1c;
+}
+
+.btn1:hover{
+    background-color: #fa6f1c;
+    color: white;
+    border: 1px solid orange;
+}
+
+/*dropdown */
+
+.drop{ 
+   
+    border-radius: 0%;
+    padding: 1em 0;
+    opacity: 0;  
+}
+
+.dropdown-item:hover{
+  border-right: 3px solid orangered;
+}
+
+.downn:hover .drop{
+  opacity: 1;
+  
+}
+
+/* section-1 */
+
+.slide-inner{
+   height: 100%;
+   width: 100%;
+   background-image:url(https://themes.wplook.com/html/charity/assets/images/temp/slider-intro-image2.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+  padding: 1em; 
+   padding-top: 7em;
+   padding-bottom: 4em;
+  
+}
+ 
+.slide-p{
+    padding-top: 14em;
+    padding-bottom: 11.1em;
+}
+
+
+.sliderr{
+    width: 100%;
+    
+}
+
+.slide-inner2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/slider-intro-image.jpg);
+   
+}
+
+
+.content-slide{
+    width: 45%;
+    min-height: 280px;
+    background-color: #fa6f1c;
+    padding: 2em;
+    /* margin-top: ;
+    margin-bottom: 4em; */
+    color: white;
+    
+}
+
+.btn2{
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    
+}
+ 
+.main-slide{
+    width: 100% !important;
+     background-color: #fa6f1c; 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15em;
+    
+    
+   
+}
+
+.slide-2{
+   padding: 1em;
+   
+}
+
+.content-slide2{
+   padding: 1em;
+   padding-top: 3em;
+    background-color: #ff985c;
+    width: 40%;
+    /* height: 100%; */
+    position: relative;
+
+    
+}
+
+.span2{
+padding: 1em;
+background-color: white;
+position: absolute;
+top:-10px ;
+left: 35%;
+}
+
+.raise{
+    display: flex;
+   
+}
+
+.border-1{
+    width: 50%;
+ padding: 1em;   
+}
+
+.border-2{
+ border-left: 3px solid #ba6d41;
+
+}
+
+.done{
+    border-top: 2px solid #ba6d41;
+    
+}
+
+.done:hover{
+    background-color: #ba6d41;
+}
+
+.fire{
+    display: flex;
+    justify-content: center;
+}
+
+.span3{
+    color:#fa6f1c;
+}
+
+.d-card1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    flex-wrap: wrap;
+    gap: 1em 0;
+
+}
+
+.card{
+    border-radius: 0;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 180px;
+    border-radius: 0;
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img3{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.top-img4{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img5{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn3{
+    border-radius: 0;
+    border: 2px solid white;
+    color: white;
+    display: none;
+    margin: 0 auto;
+    margin-top: 4.4em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+/*  <div class="d-card1"> */
+
+.card-img-top:hover{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.429) 54%, rgba(0, 0, 0, 0.379) 54%, rgba(5, 5, 5, 0.402) 100%),
+url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.top-img2:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.429) 54%, rgba(0, 0, 0, 0.379) 54%, rgba(5, 5, 5, 0.402) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/featured-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img3:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.429) 54%, rgba(0, 0, 0, 0.379) 54%, rgba(5, 5, 5, 0.402) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/featured-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img4:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.429) 54%, rgba(0, 0, 0, 0.379) 54%, rgba(5, 5, 5, 0.402) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.top-img5:hover{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.429) 54%, rgba(0, 0, 0, 0.379) 54%, rgba(5, 5, 5, 0.402) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-img-top:hover .btn3{
+    display: block;
+     background-color: #fa6f1c;
+     border: 2px solid white;
+     
+}
+
+.prog-inner{
+    width: 98%;
+    background: #e3e1ee;
+    height: 3px;
+}
+
+.prog{
+    background: black;
+}
+
+/* .span4{
+    border-top: 3px solid black;
+
+}
+.span5{
+    border-top: 3px solid rgb(103, 102, 102);
+
+} */
+
+.font-s{
+    margin-top: 0.5em;
+    color: #fa6f1c;
+    font-size: medium;
+}
+
+.sec-03{
+    max-width:100% ;
+    min-height: 470px ;
+    display: flex;
+}
+
+.sec3-slider{
+width: 50%;
+
+
+}
+
+.girl-img{
+    height: 470px !important;
+    width:100%;
+
+}
+
+.para-side{
+    width: 50%;
+    height: 470px ;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    padding: 3em;
+
+}
+
+.hr{
+    width: 60px;
+    height: 3px;
+    background-color: #fa6f1c;
+    color: #f57200;
+    /* border-top: 3px solid rgb(255, 111, 0); */
+}
+
+.para-gry{
+    color: #8e8e8e;
+}
+
+.or-d{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.email{
+    text-transform: uppercase;
+}
+
+.email:hover{
+   color: #f57200;
+}
+
+.btn5{
+    border-radius:0 ;
+    border: 2px solid  #fa6f1c;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #fa6f1c;
+    height: 40px;
+}
+
+.btn5:hover{
+    background-color: #fa6f1c;
+    color: white;
+    border: 1px solid orange;
+}
+
+/* section-04 */
+
+.inline{
+    display: flex;
+     margin-top: 2em;
+     padding-bottom: 0.5em;
+     border-bottom: 1px solid rgb(34, 34, 34);
+
+}
+
+
+.sec-04{
+    max-width: 50%;
+    /* display: flex; */
+   
+    
+
+}
+
+
+.slider-3{
+    width: 100%;
+    min-height: 330px;
+}
+
+.slider-3d{
+    width: 100%;
+    display: flex;
+}
+
+
+.fruits{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/news-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    position: relative;
+}
+
+.fea{
+    margin-left: 1em;
+    margin-top: 1em;
+    text-transform: uppercase;
+}
+
+.hr-ora{
+    width: 50px;
+    margin-left: 2em;
+   
+}
+
+.progre{
+    background: #f57200;
+    margin-left: 3em;
+}
+
+.ok{
+    background-color: black;
+    border: 2px solid black;
+    color: #f57200;
+   
+}
+
+.ok:hover{
+    background-color: #fa6f1c;
+    border: 2px solid #fa6f1c;
+}
+
+
+.h6-sec4{
+    background-color: #fa6f1c;
+    color: white;
+    height: 35px;
+    position: absolute;
+    width: 100%;
+    bottom: -12px;
+}
+
+.slide-side-d{
+    padding: 0.7em;
+    width: 50%;
+}
+
+.side-sec4-d{
+    width: 50%;
+   
+}
+
+.head-but{
+   display: flex;
+   justify-content: space-around;
+}
+
+.btn6{
+   height: 40PX;
+    border-radius: 0;
+    border: 2px solid blue;
+    background-color: blue;
+    color: white;
+    margin-top: 2.5em;
+}
+
+.btn6:hover{
+    height: 40PX;
+     border-radius: 0;
+     border: 2px solid blue;
+     background-color: rgb(255, 255, 255);
+     color: blue;
+    
+ }
+
+.orange{
+    margin-bottom: 0.6em;
+}
+
+.orange:hover{
+    color: #fa6f1c;
+}
+
+.user{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ad{
+      /* font-size: small; */
+      margin-bottom: 2em;
+    color: hsl(0, 0%, 56%);
+}
+
+.para2-f{
+    font-size: 1.5em;
+}
+
+.cube{
+    display: flex;
+    margin-top: 1em;
+}
+
+/* sec06 */
+
+.staff{
+    width: 100%;
+    min-height: 540px;
+}
+
+.progres{
+    background: #f57200;
+}
+
+
+.row1{
+    display: flex;
+}
+
+.smile-p{
+    display: flex;
+}
+
+
+
+.smile-p:hover .smile-hover{
+    background-color: #fa6f1c;
+    color: white;
+}
+
+.smile-hover{
+    text-align: center;
+    padding: 1em;
+}
+
+.line{
+    width: 50px;
+    background-color: #f57200;
+    height: 1px;
+    margin: 0 auto;
+}
+
+/* sec077777 */
+
+.gry{
+    color: #8e8e8e;
+}
+
+.last-slide{
+  width: 100%;
+  min-height: 300px;
+  background-color: #fa6f1c;
+  padding: 1em;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  padding-top: 2em;
+}
+
+.gray{
+    color: #763815;
+}
+
+.lineee{
+    width: 200px;
+    height: 2px;
+    background-color: #60361e;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.sec08{
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 1em;
+}
+
+.btn7{
+    border-radius: 0;
+    border: 2px solid #f57200;
+    color: #f57200;
+}
+
+.btn7:hover{
+    border-radius: 0;
+    border: 2px solid #f57200;
+    background-color: #f57200;
+    color: white;
+}
+
+.or-cic{
+    background-color: #8e8e8e;
+    color: white;
+    padding: 0.3em 0.5em;
+    border-radius: 50%;
+}
+
+.splii{
+    display: flex;
+    justify-content: center;
+}
+
+.spli{
+    display: flex;
+    justify-content: center;
+}
+
+/* section9 */
+
+
+.secfoot{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 450px;
+    color: white;
+    padding: 1em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style-type: none;
+    width: 280px;
+}
+
+.foot-l{
+    width: 70px;
+    height: 3px;
+    background-color: #f57200;
+    margin-bottom: 2em;
+}
+
+li{
+    color: #8e8e8e;
+    text-transform: uppercase;
+}
+
+li:hover{
+    color: #ffffff;
+}
+
+.li{
+    color: #8e8e8e;
+}
+
+.input{
+    border-radius: 0;
+}
+
+
+
+.btn-in{
+   border-radius: 0%;
+   background-color: #f57200;
+   color: white;
+   border: 2px solid #f57200;
+}
+
+/* footer2 */
+
+.foot2{
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: space-between;
+    color: #8e8e8e;
+}
+
+
+
+.footsp{
+    color: white;
+    cursor: pointer;
+}
+
+.faa{
+   
+   margin-right: 1em;
+   cursor: pointer;
+}
+
+.faa:hover{
+    color: white;
+}
+
+
+
+/* media queries */
+
+
+@media (max-width:1030px){
+
+
+    .sec-03{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec3-slider{
+      width: 100%;
+    
+    }
+
+    .para-side{
+        width: 100%;
+    }
+
+    .or-d{
+        display: block;
+    }
+
+    .inline{
+        display: block;
+    }
+
+    .sec-04{
+        max-width: 100%;
+    }
+
+   
+
+    .side-sec4-d{
+      width: 100%;
+    }
+
+    .row1{
+        display: block;
+    }
+
+    .smile-row-r{
+        flex-direction: row-reverse;
+    }
+
+    .sec08{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   
+
+}
+
+
+
+@media (max-width:990px){
+    .navbar-nav{
+        position: static;
+    }
+
+   .btn1{
+    position: absolute;
+    left: 75%;
+   }
+
+    .content-slide{
+       margin: 0 auto;
+    }
+
+
+}
+
+
+@media (max-width:770px){
+
+    .btn1{
+        display: none;
+    }
+
+    .secfoot{
+        display: block;
+        
+    }
+
+    ul{
+        width: 100%;
+        padding: 0.2em;
+    }
+
+    .foot2{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:700px){
+    .main-slide{
+        display: block;
+        margin-top: 5em;
+    }
+
+    .content-slide2{
+        width: 100%;
+        /* padding: ; */
+    }
+
+   
+}
+
+@media (max-width:600px){
+    .nav-ctm{
+        flex-direction: column;
+       align-items: center;
+       padding: 0.2em;
+    }
+
+    .span1{
+        border: none;
+        padding: 0.2em 0.5em ;
+    }
+
+    .content-slide{
+        width: 70%;
+    }
+
+    .girl-img{
+        height: 270px !important;
+    }
+
+    .para-side{
+        padding: 0.5em;
+        font-size: smaller;
+    }
+
+    .slider-3d{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fruits{
+        width: 100%;
+    }
+
+    .slide-side-d{
+        width: 100%;
+    }
+
+    .user{
+        flex-direction: column;
+    }
+
+    .ad{
+        margin-bottom: 0.5em;
+    }
+
+    .para2-f{
+        font-size: 20px;
+    }
+
+    .smile-p{
+        display: block;
+        
+    }
+
+    .girl-r{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .boy-1{
+        width: 100%;
+    }
+
+    .last-slide{
+ 
+        font-size: 20px;
+      }
+
+      .btn7{
+        font-size: 10px;
+      }
+
+      .spli{
+        flex-direction: column;
+        
+      }
+
+      .none{
+        display: none;
+      }
+
+      .or-cic{
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+      }
+  
+}
+
+@media (max-width:450px){
+    .content-slide{
+        width: 100%;
+    }
+
+    .slide-inner{
+        padding: 1em;
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .span2{
+      
+        position: absolute;
+        
+        left: 25%;
+        }
+
+        .head-but{
+            display: block;
+        }
+
+        .btn6{
+            margin-left: 0.5em;
+        }
+      
+        .card-ml{
+            
+            margin-left: -0.5em;
+        }
+
+       
+        
+
+}
+

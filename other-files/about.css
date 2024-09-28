@@ -1,0 +1,695 @@
+@import url(./../style.css);
+
+.pg2-bgimg{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 200px;
+    padding: 2em;
+}   
+
+.dot-pg2{
+    width: 200px;
+    padding: 0.6em;
+    text-align: center;
+    background-color: white;
+}
+
+.pg2-sec1-lk{
+    text-decoration: none;
+    color: rgb(33, 33, 33);
+}
+
+.pg2-sp-1{
+    color: black;
+}
+
+.hov-pg2{
+    color: orangered;
+}
+
+.hov-pg2:hover{
+    text-decoration: underline;
+}
+
+.pg2sec-2{
+    display: flex;
+    width: 100%;
+    margin-top: 2em;
+}
+
+
+
+
+.pg2-slider1{
+    width: 70%;
+}
+
+.pg-tog{
+    border: 2px solid black;
+    
+}
+
+.pg-tog:hover{
+    background-color: orangered;
+    border: 2px solid orangered;
+}
+
+.row-card-pg{
+    display: flex;
+    
+}
+
+.pg-side-mp{
+    padding: 1em;
+}
+
+
+.pg2-line1{
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+}
+
+.bg2-pg2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/popular-post-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+
+
+.bg3-pg2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/popular-post-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+
+
+.bg4-pg2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/popular-post-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 80px;
+}
+
+.pg2-sec3-l{
+    padding: 1em;
+    width: 69%;
+}
+
+.card{
+    border: none;
+}
+
+.pg2-side-d1{
+padding: 2em;
+min-height: 100px;
+width: 95%;
+margin: 1em;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+border-left: 2px solid orangered;
+
+}
+
+.img-card{
+    width: 100%;
+    padding: 1em;
+    border-bottom: 1px solid rgb(135, 135, 135);
+}
+
+.pg2-sm4{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/event-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.aug{
+    background-color: black;
+    padding: 0.4em;
+    color: white;
+    position: absolute;
+    right: 0%;
+    bottom: 16%;
+}
+
+.aug17{
+    background-color:orangered;
+    padding: 0.3em 0.9em;
+    color: white;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+.btn-dpg2{
+    width: 300px;
+}
+
+.btn-9o{
+    border: 1px solid orangered;
+    color: orangered;
+    border-radius: 0%;
+    margin-bottom: 0.5em;
+}
+
+.btn-9o:hover{
+    border: 1px solid orangered;
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+}
+
+.btn8{
+    border: 1px solid blue;
+    color: blue;
+    border-radius: 0%;
+    margin-top: -0.5em;
+}
+
+
+.btn8:hover{
+    border: 1px solid blue;
+    color: rgb(255, 255, 255);
+    background-color: blue;
+}
+
+.sm-5:hover{
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.372) 54%, rgba(227, 87, 12, 0.427) 54%, rgba(227, 87, 12, 0.427) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/event-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pg2-hov1{
+    display: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 3em;
+    margin-top: 1.5em;
+}
+
+.sm-5:hover .pg2-hov1{
+    display: block;
+   text-align: center;
+    
+  
+}
+
+.btn-bg1{
+    border: 1px solid blue;
+    color: rgb(255, 255, 255);
+     border-radius: 0%;
+     padding-left: 1em;
+     padding-right: 1em;
+    background-color: blue;
+}
+
+.btn-bg1:hover{
+    border: 1px solid blue;
+    color: blue;
+   background-color: white;
+}
+
+
+.btn-bg2{
+    border: 1px solid aqua;
+    color: rgb(255, 255, 255);
+     border-radius: 0%;
+     padding-left: 0.9em;
+     padding-right: 0.7em;
+    background-color: aqua;
+}
+
+.btn-bg2:hover{
+    border: 1px solid aqua;
+    color: aqua;
+   background-color: white;
+}
+
+
+.btn-bg3{
+    border: 1px solid orangered;
+    color: rgb(255, 255, 255);
+     border-radius: 0%;
+    background-color: orangered;
+}
+
+.btn-bg3:hover{
+    border: 1px solid orangered;
+    color: orangered;
+   background-color: white;
+}
+
+
+.btn-bg4{
+    border: 1px solid #046287;
+    color: rgb(255, 255, 255);
+     border-radius: 0%;
+     padding-left: 1em;
+     padding-right: 1em;
+    background-color: #046287;
+}
+
+.btn-bg4:hover{
+    border: 1px solid #046287;
+    color: #046287;
+   background-color: white;
+}
+
+.bor-all{
+     margin-top: 2em;
+    border-top: 1px solid grey;
+ border-bottom: 1px solid grey;
+}
+
+
+.com-1{
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    padding: 1em;
+}
+
+.com-btn1{
+    font-size: xx-small;
+    background-color: rgb(255, 119, 0);
+    color: white;
+    border-radius: 0%;
+    border: 1px solid rgb(255, 123, 0);
+    
+    
+}
+
+.com-img1{
+    width: 150px;
+    
+}
+
+.com-2{
+    margin-left: 1em;
+}
+
+.input-1{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    width: 46%;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+
+.input-2{
+    width: 95%;
+}
+
+.hov-img-1{
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+.git{
+    width: 100px;
+    height: 100px;
+    background-image: 
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git:hover{
+    width: 100px;
+    height: 100px;
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.315) 54%, rgba(227, 87, 12, 0.32) 54%, rgba(227, 87, 12, 0.297) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git:hover .git-h{
+  display: block;
+  font-size: 1.4em;
+  text-align: center;
+}
+
+.git2{
+    width: 100px;
+    height: 100px;
+    background-image: 
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git2:hover{
+    width: 100px;
+    height: 100px;
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.315) 54%, rgba(227, 87, 12, 0.32) 54%, rgba(227, 87, 12, 0.297) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.git3{
+    width: 100px;
+    height: 100px;
+    background-image: 
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.git3:hover{
+    width: 100px;
+    height: 100px;
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.315) 54%, rgba(227, 87, 12, 0.32) 54%, rgba(227, 87, 12, 0.297) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.git4{
+    width: 100px;
+    height: 100px;
+    background-image: 
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.git4:hover{
+    width: 100px;
+    height: 100px;
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.315) 54%, rgba(227, 87, 12, 0.32) 54%, rgba(227, 87, 12, 0.297) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/gallery-widget-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* page-3 -------------------causesssss------------------- */
+
+.pg3-bg1{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-2.jpg);
+}
+
+.pg3-dflex{
+    display: flex;
+    margin-top: 1em;
+
+}
+
+.pg3-sidel{
+    width: 70%;
+    padding: 1em;
+}
+
+
+.bg-card1{
+    width: 100%;
+    min-height: 640px;
+    background-color: rgb(225, 237, 243);
+    margin-bottom: 1em;
+}
+
+.pg3-bgimg1{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.pad{
+  padding: 1em;
+}
+
+.pg3-btn1{
+    background-color: rgb(39, 38, 38);
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.gry-pg3{
+    color: rgb(57, 57, 57);
+    height: 3px;
+}
+
+.prog-pg3{
+    background-color: rgb(190, 190, 190);
+}
+
+.msg{
+    width: 60px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+
+.pg3-bgimg2{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.hrt:hover{
+    color: rgb(0, 13, 255);
+}
+
+.pg3-bgimg3{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+.pg3-bgimg4{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+}
+
+li{
+    cursor: pointer;
+}
+
+.li-ty1:hover{
+color: orangered;
+}
+
+.li-ty1{
+    text-transform: uppercase;
+    margin-bottom: 0.6em;
+}
+
+.sm-pg3-1{
+  background-image:  url(https://themes.wplook.com/html/charity/assets/images/temp/popular-post-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sm-pg3-1:hover{
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.372) 54%, rgba(227, 87, 12, 0.427) 54%, rgba(227, 87, 12, 0.427) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/popular-post-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sm-pg3-2{
+    background-image:  url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  .sm-pg3-2:hover{
+    background: rgb(227,87,12);
+    background: linear-gradient(90deg, rgba(227, 87, 12, 0.372) 54%, rgba(227, 87, 12, 0.427) 54%, rgba(227, 87, 12, 0.427) 100%),
+    url(https://themes.wplook.com/html/charity/assets/images/temp/cause-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p30{
+    width: 370px;
+}
+
+
+.btn-c{
+    border: 1px solid black;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1030px){
+
+    .pg2-slider1{
+        width: 100%;
+    }
+   
+   .pg2sec-2{
+    display: block;
+   }
+
+   .pg3-dflex{
+    display: block;
+   }
+
+   .pg2-sm4{
+    height: 370px;
+    max-width: 100%;
+   }
+
+   .aug{
+ 
+    right: 0%;
+    bottom: 8%;
+}
+
+.btn-dpg2{
+    width:100%;
+}
+
+.pg2-hov1{
+    margin-top: 4em;
+}
+
+.p30{
+    width: 100%;
+    padding: 0.5em;
+}
+
+
+}
+
+
+
+@media (max-width:550px){
+
+
+    .com-1{
+        padding: 0.5em;
+        gap: 0.5em;
+        
+    }
+    .prog-pg3{
+        margin-top: 3em;
+    }
+
+    .pg3-bgimg1{
+        height: 280px;
+    }
+
+
+
+
+
+}
+
+@media (max-width:510px){
+    .input-1{
+        width: 98%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:450px){
+    .pg2-side-d1{
+        padding: 0.7em;
+        margin: 0;
+    }
+
+    .pg2-sm4{
+        height: 180px;
+        min-width: 280px;
+       }
+
+       .img-card{
+        padding: 0.2em;
+       }
+
+       .aug{
+ 
+        right: 0%;
+        bottom: 13%;
+    }
+
+
+    .com-1{
+        flex-direction: column;
+    }
+
+    .com-img1{
+        width: 70px;
+        height: 50px;
+    }
+
+    .pg2-hov1{
+        margin-top: 1.4em;
+    }
+
+
+}
+
+
+@media (max-width:370px){
+    .prog-pg3{
+        margin-top: 5em;
+    }
+
+    .pg3-bgimg1{
+        height: 150px;
+    }
+
+    .pg3-sidel{
+        padding: 0;
+    }
+
+    /* .pg3-bgimg4{
+        width: 280px;
+    } */
+
+    
+}
