@@ -663,7 +663,7 @@ width: 50%;
 .or-cic{
     background-color: #8e8e8e;
     color: white;
-    padding: 0.3em 0.5em;
+    padding: 0.3em 0.7em;
     border-radius: 50%;
 }
 
@@ -959,6 +959,11 @@ li:hover{
         margin-top: 0.5em;
         margin-bottom: 0.5em;
       }
+
+      .or-cic{
+        padding: 0.3em 0.5em;
+           
+        }
   
 }
 
